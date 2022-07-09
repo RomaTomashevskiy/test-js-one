@@ -1,0 +1,41 @@
+body {
+  background-color: #8902;
+}
+
+.button_active {
+  margin-bottom: 10px;
+  background-color: aqua;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
+.button_active:hover {
+  color: red;
+  transition: 250ms;
+}
+.button_active:active {
+  color: #fff;
+}
+.button_active:active {
+  background-color: blanchedalmond;
+}
+
+.button_active--cklick{
+  background-color: brown;
+}
+
+li {
+  color: #84795494;
+  list-style-type: none;
+}
+footer {
+  margin-top: 100px;
+}
+.list {
+  display: flex;
+}
+
+.item_btn:not(:last-child) {
+  margin-right: 50px;
+}

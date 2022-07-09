@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ДОКУМЕНТ</title>
+</head>
+<body>
+
+    <header>
+        <button type="button" class="btn">Я тут є </button>
+        <button type="button" class="btn-add">Добавити</button>
+        <button type="button" class="btn-remove">Удалити</button>
+        <h1>Hello World</h1>
+        <div>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam, totam vel libero quos minima inventore ratione doloremque odit hic optio consectetur, impedit magnam nostrum, aliquid distinctio fugiat modi autem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam, totam vel libero quos minima inventore ratione
+                doloremque odit hic optio consectetur, impedit magnam nostrum, aliquid distinctio fugiat modi autem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quam, totam vel libero quos minima inventore ratione
+                doloremque odit hic optio consectetur, impedit magnam nostrum, aliquid distinctio fugiat modi autem.</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <ul>
+                <li>Lorem  ipsum  dolor sit amet consectetur adipisicing elit. Nobis quam, totam vel libero quos minima inventore ratione
+                doloremque odit hic optio consectetur, impedit magnam nostrum, aliquid distinctio fugiat modi autem.Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Nobis quam, totam vel libero quos minima inventore ratione
+                doloremque odit hic optio consectetur, impedit magnam nostrum, aliquid distinctio fugiat modi autem.Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Nobis quam, totam vel libero quos minima inventore ratione
+                doloremque odit hic optio consectetur, impedit magnam nostrum, aliquid distinctio fugiat modi autem.</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+            <div >
+                <ul class="list">
+                    <li class="item_btn">
+                        <button class="button_active" data-value="#Мультфільм" >
+                            Мультфільм
+                        </button>
+                    </li>
+                    <li class="item_btn">
+                        <button class="button_active" data-value="#Боєвик">
+                        Боєвик
+                        </button>
+                    </li>
+                    <li class="item_btn">
+                        <button class="button_active" data-value="#Фантастика">
+                            Фантастика
+                        </button>
+                    </li>
+                    <li class="item_btn">
+                        <button class="button_active" data-value="#Комедія">
+                        Комедія
+                        </button>
+                    </li>
+                    <li class="item_btn">
+                        <button class="button_active" data-value="#Мелодрама">
+                     Мелодрама
+                        </button>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+
+
+        <style>
+            .item-cars{
+                margin-bottom: 10px;
+                color: #000000;
+                transition:  200ms;
+
+                font-size: larger;
+            }
+            .item-cars:hover{
+                color: blueviolet;
+            }
+
+            .box{
+                height:100px;
+                width:100%;
+                background-color: rgb(40, 65, 65);
+            }
+            
+            .time-box{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .alert-btn{
+                
+                padding: 14px 20px;
+                color: bisque;
+                background-color: rgb(77, 70, 83);
+                cursor: pointer;
+            }
+            .alert-btn:active{
+                color: #000000;
+                background-color: blueviolet;
+            }
+           
+        </style>
+
+<div class="time-box">
+        <div class="flex-box">
+           <span id="d" class="days">00 :></span>
+           <span id="h" class="hours">00 :></span>
+           <span id="m" class="minutes">00 :></span>
+           <span id="s" class="seconds">00 :></span>
+        </div>
+
+</div>
+
+
+
+    <div class="product-car"></div>
+
+
+
+    <form action="" class="form">
+        <label for="">
+            Як тебе звати ?
+            <input type="text" class="input ">
+        </label>
+        <span class="hello-name">Привіт <span class="anonim-name"></span></span>
+    </form>
+
+    
+
+    <label for="">
+        Введи назву автомобіля який тобі  довподоби
+        <input type="text" class="input-cars">
+    </label>
+    <ul class="list-cars"></ul>
+
+
+
+        <button type="button" class="click-pacture">Нажимай і побачиш фокус</button>
+
+
+        <p class="pacture"></p>
+
+
+
+
+        <p class="textNum"></p>
+        <input type="number"  name="numbertime" id="inputNum">
+        <button type="button" id="start">start</button>
+        <button type="button" id="pause">pause</button>
+        <button type="button" id="stop">stop</button>
+
+
+
+        <div class="box"  ></div>
+
+        <div id="clock">00:00:00</div>
+
+    <button type="button" class="alert-btn">Click Me</button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js" ></script>
+    <script src="./repetition.js" ></script>
+    <script src="lodash.js"></script>
+    <script src="./img.js" ></script>
+
+
+
+
+</body>
+</html>

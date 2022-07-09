@@ -1,0 +1,28 @@
+{
+  "name": "test-js-one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "img.js",
+  "scripts": {
+
+    "dev": "parcel *.html",
+    "build": "parcel build *.html --public-url /test-js-one/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomaTomashevskiy/test-js-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomaTomashevskiy/test-js-one/issues"
+  },
+  "homepage": "https://github.com/RomaTomashevskiy/test-js-one#readme",
+  "dependencies": {
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
